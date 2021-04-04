@@ -1,66 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 
-html, body {
-    height: 100%;
-    width: 100%;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    min-width: 360px;
-    min-height: 640px;
-    
-    margin: 0;
-    background-color: #030027;
-    
-    color: #0DAB76;
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  min-width: 360px;
+  min-height: 640px;
+
+  margin: 0;
+  background-color: #030027;
+
+  color: #0dab76;
 }
 
 .main-container {
-    text-align: center;
-    min-width: 360px;
+  text-align: center;
+  min-width: 360px;
 }
 
 h1 {
-    margin-top: 0;
-    margin-bottom: 50px;
-    padding-top: 20px;
-    font-family: Bangers, cursive;
-    
-    font-size: 88px;
-    line-height: 94px;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  font-family: Bangers, cursive;
+
+  font-size: 88px;
+  line-height: 94px;
 }
 
 h2 {
-    font-family: 'Fontdiner Swanky', cursive;
-    font-size: 36px;
-    line-height: 44px;
-    
+  font-family: "Fontdiner Swanky", cursive;
+  font-size: 36px;
+  line-height: 44px;
+  display: inline;
 }
 
 a {
-    color: inherit;
-    text-decoration: inherit;
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .contact-btn {
-    font-family: Bangers, cursive;
-    
-    margin-bottom: 20px;
-    
-    width: 90%;
-    height: 90px;
-    
-    font-size: 48px;
-    line-height: 51px;
-    color: #151E3F;
-    
-    background-color: #0DAB76;
-    
-    border: none;
-    box-shadow: -4px 4px 4px #0B5D1E;
-    border-radius: 2px;
+  font-family: Bangers, cursive;
+
+  margin-bottom: 20px;
+
+  width: 90%;
+  height: 90px;
+
+  font-size: 48px;
+  line-height: 51px;
+  color: #151e3f;
+
+  background-color: #0dab76;
+
+  border: none;
+  box-shadow: -4px 4px 4px #0b5d1e;
+  border-radius: 2px;
+}
+
+.listItem-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.arrow-img {
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: top;
 }
