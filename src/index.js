@@ -1,17 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+function Title(props) {
+   return(
+       <h1>{props.value}</h1>
+   )
+}
+
+function ListItem(props) {
+    return(
+        <h2><a href="#">{props.value}</a></h2>
+    )
+}
+
+function Btn(props) {
+    return(
+        <button class="contact-btn">{props.value}</button>
+    )
+}
+
+function MainContainer(props) {
+    return(
+        <div class="main-container">
+            <Title value="EXCITING IT"/>
+            <ListItem value="LinkedIn"/>
+            <ListItem value="github"/>
+            <ListItem value="company info"/>
+            <Btn value="CONTACT"/>
+        </div>
+    )
+}
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+ <MainContainer />,
+ document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
